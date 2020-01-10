@@ -11,5 +11,6 @@ export default function Footer() {
 const footerStyle = {
     background: '#808080',
     color: 'rgb(255,255,255)',
-    border: 'solid black'
+    border: 'solid black',
+    textAlign: 'center'
 };
