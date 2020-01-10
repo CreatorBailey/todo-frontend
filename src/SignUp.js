@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkButton from "./utils/LinkButton";
 import Api from './utils/Api';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
@@ -71,7 +70,6 @@ export default class SignUp extends React.Component {
                         </div>
                         <div className="text-center">
                             <button className="btn btn-primary mr-1" type="submit">Submit</button>
-                            <LinkButton className="btn btn-secondary ml-1" to={'/signin'}>Back to Sign In</LinkButton>
                         </div>
                     </form>
                 </div>
